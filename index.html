@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg-text">
+    <h1>Weather</h1>
+    
+    <div class="input">
+        <form id="form"><input  class="Search" type="text" placeholder="Search a city" >
+        <button class="btn" onclick="clear()"><i class="fa fa-search" ></i></button>
+    </form>
+    </div>
+
+    <div class="main">
+   
+    
+    <div class="left">
+
+   
+   <div id="place">
+     <p class="city"></p>
+    </div>
+  
+
+
+   <div class="city1">
+        <p class="temp" id="temp">50</p>
+         <p id="des"></p>
+         <img src="" alt="">
+         
+</div>
+    
+</div>
+<div class="right">
+<div class="parameters">
+
+    
+   
+    <div class="humid">
+        <!-- <img class="h" src="images/humidity.png" alt="humid"> -->
+        
+            <p>Humidity</p>
+       <h2></h2>
+     
+
+    </div>
+
+    <div class="windS">
+    <!-- <img class="h1" src="images/winds-weather-symbol.png" alt="humid"> -->
+     
+        <p>Wind speed</p>
+       <h2 id="windspeed"></h2>
+     </div>
+
+
+
+     <div class="feel">
+        <p>Feels like</p>
+        <h2 id="feels-like"></h2>
+        <p>Max-temp</p>
+        <h2></h2>
+        <p>Min-temp</p>
+        <h2></h2>
+        <p >Sunrise</p>
+        <h2 id="sunrise"></h2>
+        <p>Sunset</p>
+        <h2></h2>
+     </div>
+    </div>
+    </div>
+
+
+</div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+
+   
+    height: 100vw;
+    font-family: 'Oswald', sans-serif;
+ 
+  
+}
+.bg{
+    position: absolute;
+      left: 0px;
+      top: 0px;
+    height: 100vh;
+    width:100%;
+    z-index: -1;
+    background-image: url(images/Mist.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.main{
+    
+    /* background-image: linear-gradient(to top,rgba(255, 255,0, 0.2),rgba(238, 159, 172,0.2),rgba(143, 204, 228, 0.2)); */
+     background-color: rgba(233, 242, 238, 0.1); 
+  
+    height:600px;
+    width:900px;
+    margin:5px auto;
+   box-shadow: -2px -2px 10px 0.62x rgb(138, 131, 131);
+}
+
+h1{
+    font-size: 20px;
+    color: black;
+    display: inline;
+   
+}
+.input{
+    padding-top: 7px;
+  display: inline;
+   position: absolute;
+   right:4px;
+   
+}
+.input input{
+    background-color: transparent;
+
+height: 39px;
+width: 170px;
+
+
+/* transition: All 4s ease-in-out; */
+border:  1px solid rgb(214, 198, 198);
+
+border-radius: 5px;
+
+}
+.input input:hover{
+    transition: All 0.5s ease;
+    
+   border:1px solid rgb(191, 173, 173);   /* background-image: linear-gradient(to left,rgba(92, 190, 211,0.6),white 60%); */
+}
+.btn {
+  
+    border-radius: 5px;
+
+    position: relative;
+
+top:2px;
+  
+
+ width:45px;
+  height: 38px;
+ 
+  border: none;
+  
+  color:black;
+ 
+  cursor: pointer;
+  font-size: 18px;
+  /* box-shadow: 5px 5px 8px rgb(214, 203, 203); */
+  /* transition: all 1s ease; */
+
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+ /*input::placeholder{
+    display: flex;
+    justify-content: center;
+   
+}*/
+
+/* .sun {
+    display: block;
+    height: 320px;
+    margin: 0 auto;
+    position: relative;
+    top:100px;
+   
+    
+    
+} */
+.left{
+   
+    height:600px;
+    width:450px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+#place{
+/* border: 1px solid red; */
+  
+  position: absolute;
+  top:76%;
+ padding-left: 8px;
+       
+        font-size: 30px;
+        font-weight: 790;
+        letter-spacing: 4px;
+        
+    
+}
+
+.city1 .date{
+    position: relative;
+    bottom: 140px;
+    left:10px;
+}
+.city1 .temp{
+   
+    color:white;
+    font-size: 76px;
+    position: relative;
+    top:375px;
+    left:5px;
+   
+}
+.right{
+    float: right;
+    
+    position: relative;
+    bottom: 600px;
+   
+    height:600px;
+    width:450px;
+    background-color: rgba(255, 255, 255,0.4);
+}
+
+.city1 #des{
+    color:white;
+    font-weight: 500;
+    font-size: 25px;
+    position: relative;
+    left:56px;
+    top: -70px;
+}
+img{
+   height: 60px;
+    position: absolute;
+    top:68px;
+    
+}
+
+
+
+ .parameters{
+   
+    
+   margin-top: 25px;
+   margin-left: 50px;
+   
+} 
+.humid,.windS,.feel{
+    margin-top:30px;
+    /* border: 1px solid red; */
+}
+
+.feel p{
+margin-top: 16px;
+}
+/* .humid{
+   
+ display: flex;
+  
+}
+.h{
+   
+    
+    height: 50px;
+    width:50px;
+    opacity: 0.5;
+
+}
+.windS{
+    width:150px;
+    display: flex;
+    
+   
+}
+.wind{
+   
+    position:relative ;
+    left: 10px;
+} 
+.h1{
+    height: 50px;
+    width:59px;
+    opacity: 0.5;
+} */
+
+/* @media screen and (min-width:390px) {
+
+    .parameters{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .sun{
+       
+        margin:0 auto;
+
+    }
+    .parameters{
+        display: flex;flex-wrap: wrap;
+        justify-content: center;
+    }
+} */
